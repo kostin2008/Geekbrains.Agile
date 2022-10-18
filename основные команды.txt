@@ -1,0 +1,29 @@
+Поднятие Vagrant (из папки HomeStead)
+vagrant up
+
+Подключение к проекту
+vagrant ssh
+cd code
+
+Создание миграции
+php artisan make:migration НазваниеМиграции
+
+Применение миграции
+php artisan migrate
+
+Откат миграции на один шаг
+php artisan migrate:rollback --step 1
+
+Применение seeder
+php artisan db:seed SeederPlant
+
+Очистка кэша
+php artisan cache:clear
+php artisan view:clear
+php artisan config:clear
+
+Установка barryvdh/laravel-debugbar
+composer require barryvdh/laravel-debugbar --dev
+
+Список роутов
+php artisan route:list

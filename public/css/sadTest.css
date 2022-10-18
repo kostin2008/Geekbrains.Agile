@@ -1,0 +1,11 @@
+.main-nav li a.active-page {
+    background-color: #94da46;
+    color: #0f0f0f;
+}
+.chosen-table-container {
+    min-height: 550px
+}
+.disabled-link {
+    pointer-events: none;
+    cursor: default;
+}
